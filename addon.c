@@ -171,7 +171,7 @@ void ins_mode(){
                 printf("%c", cbuf->c);
             }
             printf("\x1b[?25h");
-            printf("\x1b[%dD", cursorpos);
+           // printf("\x1b[%dD", cursorpos);
             refresh = 0;
         }
     }
